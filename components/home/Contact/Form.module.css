@@ -1,0 +1,69 @@
+.fieldSet {
+  width: 100%;
+  padding-inline: 0px;
+  margin-inline: 0px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  position: relative;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 20px;
+}
+.input {
+  border-radius: 5px;
+  border: solid #075e44 2px;
+  font-weight: 500;
+  outline: none;
+  font-family: var(--font-inter);
+  padding: 0.3rem;
+  font-size: var(--font-size-paragraph);
+  margin-bottom: 1rem;
+  color: rgb(50, 50, 50);
+  transition: border 0.1s, color 0.1s;
+  filter: brightness(0.95);
+}
+.input:focus-visible {
+  border: solid #38c098 2px;
+  color: rgb(0, 0, 0);
+  filter: brightness(1);
+}
+.inARow {
+  width: calc(100% - 10px);
+}
+.textArea {
+  border-radius: 5px;
+  border: solid #075e44 2px;
+  font-weight: 500;
+  outline: none;
+  font-family: var(--font-inter);
+  padding: 0.3rem;
+  font-size: var(--font-size-paragraph);
+  margin-bottom: 1rem;
+  color: rgb(50, 50, 50);
+  transition: border 0.1s, color 0.1s;
+  filter: brightness(0.95);
+}
+.textArea:focus-visible {
+  border: solid var(--color-emphasis) 2px;
+  color: rgb(0, 0, 0);
+  filter: brightness(1);
+}
+
+.submitButton {
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: var(--color-emphasis);
+  color: white;
+  font-family: var(--font-inter);
+  font-weight: 600;
+  padding: 0.7rem 2.4rem;
+  font-size: var(--font-size-paragraph);
+}

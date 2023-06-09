@@ -1,0 +1,10 @@
+.section {
+  max-width: 1200px;
+  margin-inline: auto;
+  margin-block: 10rem;
+}
+.title {
+  font-family: var(--font-satoshi);
+  font-weight: 700;
+  font-size: var(--font-size-title);
+}

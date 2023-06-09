@@ -1,0 +1,53 @@
+html {
+  margin: 0;
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  background-color: rgb(245, 245, 245);
+}
+:root {
+  /* font sizes */
+  --font-size-hero: clamp(4rem, 2.712rem + 1.675vw, 7rem);
+  --font-size-title: clamp(3.2rem, 2.685rem + 0.67vw, 4.4rem);
+  --font-size-sub-title: clamp(2.8rem, 2.285rem + 0.67vw, 4rem);
+  --font-size-medium: clamp(2.4rem, 2.057rem + 0.447vw, 3.2rem);
+  --font-size-paragraph: clamp(1.7rem, 1.228rem + 0.614vw, 2.8rem);
+  --font-size-small: clamp(1rem, 0.571rem + 0.558vw, 2rem);
+  /* colors */
+  --color-paragraph: #0f110f;
+  --color-text-gray: lightgray;
+  --color-text-white: white;
+  --color-emphasis: #38c098;
+  --color-emphasis-darkened: #0d3328;
+  --color-background: #f0f5f0;
+  --color-title: #050805;
+  --color-overlay-light: #f0f5f0;
+  --color-overlay-dark: #050805;
+  /* spacing */
+  --padding-inline: clamp(2rem, -1.435rem + 4.467vw, 10rem);
+}
+.contentSectionContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-inline: var(--padding-inline);
+  position: relative;
+}
+.contentsCentered {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.fillContainer {
+  height: 100%;
+  width: 100%;
+}
+.largeBlockSpace {
+  margin-block: 150px;
+}
+.medBlockSpace {
+  margin-block: 100px;
+}
+.smallBlockSpace {
+  margin-block: 50px;
+}

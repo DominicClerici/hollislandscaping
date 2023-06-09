@@ -1,0 +1,37 @@
+.mainContainer {
+  position: relative;
+  min-height: 80vh;
+  max-height: 80vh;
+  height: 80vh;
+}
+.videoContainer {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+}
+.section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 100%;
+}
+.helloText {
+  font-family: var(--font-satoshi);
+  font-weight: 500;
+  font-size: var(--font-size-hero);
+  color: var(--color-text-white);
+  margin: 0px;
+}
+.subText {
+  font-family: var(--font-inter);
+  font-weight: 300;
+  font-size: var(--font-size-sub-title);
+  color: var(--color-text-gray);
+  margin: 0px;
+  width: 70%;
+}
