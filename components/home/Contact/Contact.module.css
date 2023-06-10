@@ -4,6 +4,7 @@
   margin-block: 10rem;
 }
 .title {
+  color: var(--color-title);
   font-family: var(--font-satoshi);
   font-weight: 700;
   font-size: var(--font-size-title);

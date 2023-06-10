@@ -1,8 +1,10 @@
 html {
   margin: 0;
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
+  overflow-x: hidden;
   margin: 0;
   background-color: rgb(245, 245, 245);
 }
@@ -19,7 +21,7 @@ body {
   --color-text-gray: lightgray;
   --color-text-white: white;
   --color-emphasis: #38c098;
-  --color-emphasis-darkened: #0d3328;
+  --color-emphasis-darkened: #187c60;
   --color-background: #f0f5f0;
   --color-title: #050805;
   --color-overlay-light: #f0f5f0;

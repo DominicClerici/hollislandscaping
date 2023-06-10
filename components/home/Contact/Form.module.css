@@ -17,7 +17,7 @@
 }
 .input {
   border-radius: 5px;
-  border: solid #075e44 2px;
+  border: solid var(--color-emphasis-darkened) 2px;
   font-weight: 500;
   outline: none;
   font-family: var(--font-inter);
@@ -25,11 +25,11 @@
   font-size: var(--font-size-paragraph);
   margin-bottom: 1rem;
   color: rgb(50, 50, 50);
-  transition: border 0.1s, color 0.1s;
+  transition: border 0.1s, color 0.1s, filter 0.1s;
   filter: brightness(0.95);
 }
 .input:focus-visible {
-  border: solid #38c098 2px;
+  border: solid var(--color-emphasis) 2px;
   color: rgb(0, 0, 0);
   filter: brightness(1);
 }
@@ -38,7 +38,7 @@
 }
 .textArea {
   border-radius: 5px;
-  border: solid #075e44 2px;
+  border: solid var(--color-emphasis-darkened) 2px;
   font-weight: 500;
   outline: none;
   font-family: var(--font-inter);
@@ -46,7 +46,7 @@
   font-size: var(--font-size-paragraph);
   margin-bottom: 1rem;
   color: rgb(50, 50, 50);
-  transition: border 0.1s, color 0.1s;
+  transition: border 0.1s, color 0.1s, filter 0.1s;
   filter: brightness(0.95);
 }
 .textArea:focus-visible {

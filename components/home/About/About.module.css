@@ -10,13 +10,15 @@
 .fullWidthSection {
   position: relative;
   width: 100%;
+  padding-inline: 100px;
+  box-sizing: border-box;
 }
 .normalSection {
   padding: 2rem;
   box-sizing: content-box;
   margin-inline: auto;
   max-width: 1200px;
-  background-color: rgb(245, 245, 245);
+  background-color: var(--color-background);
 }
 .image {
   transform: scale(1.5);
@@ -24,11 +26,13 @@
 }
 .title {
   margin: 0px;
+  color: var(--color-title);
   font-family: var(--font-satoshi);
   font-size: var(--font-size-title);
   font-weight: 800;
 }
 .body {
+  color: var(--color-paragraph);
   font-family: var(--font-inter);
   font-size: var(--font-size-paragraph);
 }
