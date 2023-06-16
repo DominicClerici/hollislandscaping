@@ -35,3 +35,8 @@
   margin: 0px;
   width: 70%;
 }
+@media (max-width: 450px) {
+  .subText {
+    width: 100%;
+  }
+}

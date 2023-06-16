@@ -30,7 +30,7 @@ const Parallax = () => {
   }, [eventHandler])
   return (
     <div className={styles.container}>
-      <h1 className={styles.text}>Previous Projects</h1>
+      <h1 className={`${styles.text} title`}>Previous Projects</h1>
       <div className={styles.overlay}></div>
       <Image
         id="parallaxImage"

@@ -4,10 +4,12 @@ import Form from "./Form"
 
 const Contact = () => {
   return (
-    <div className={`contentSectionContainer smallBlockSpace`}>
-      <h1 className={styles.title}>Contact us</h1>
+    <section className={`contentSectionContainer smallBlockSpace`}>
+      <h1 id="contact" className="title">
+        Contact us
+      </h1>
       <Form></Form>
-    </div>
+    </section>
   )
 }
 

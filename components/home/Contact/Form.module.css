@@ -9,11 +9,18 @@
 .form {
   position: relative;
 }
-.row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  gap: 20px;
+@media (min-width: 701px) {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .row {
+    display: inline-block;
+  }
 }
 .input {
   border-radius: 5px;

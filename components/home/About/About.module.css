@@ -20,6 +20,11 @@
   max-width: 1200px;
   background-color: var(--color-background);
 }
+@media (max-width: 768px) {
+  .fullWidthSection {
+    padding-inline: 0px;
+  }
+}
 .image {
   transform: scale(1.5);
   object-fit: cover;

@@ -8,9 +8,6 @@
   overflow: hidden;
 }
 .text {
-  font-family: var(--font-satoshi);
-  font-size: var(--font-size-title);
-  font-weight: 500;
   color: var(--color-text-white);
   z-index: 1;
 }

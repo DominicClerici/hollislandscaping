@@ -13,20 +13,25 @@
   height: 100%;
   width: 100%;
   background-color: var(--color-background);
-  opacity: 0.95;
+  opacity: 0.93;
   position: absolute;
 }
-.headerText {
-  color: var(--color-title);
-  font-family: var(--font-satoshi);
-  font-weight: 600;
-  font-size: var(--font-size-title);
-  text-align: center;
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+  }
 }
-.row {
-  display: flex;
-  flex-flow: row nowrap;
-  width: 100%;
+@media (min-width: 769px) {
+  .row {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+  }
+}
+.serviceList {
+  columns: 2;
 }
 .col {
   flex-basis: 0;
@@ -35,16 +40,4 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-}
-.paragraph {
-  color: var(--color-paragraph);
-  font-family: var(--font-inter);
-  font-size: var(--font-size-paragraph);
-  font-weight: 400;
-}
-.serviceList {
-  color: var(--color-paragraph);
-  font-family: var(--font-inter);
-  font-size: var(--font-size-paragraph);
-  font-weight: 400;
 }

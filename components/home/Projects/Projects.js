@@ -5,13 +5,14 @@ import PreviousProject from "./PreviousProject"
 import WCImage from "@/app/img1.webp"
 import lafImage from "@/app/img2.webp"
 import oakImage from "@/app/img3.webp"
+import LinkButton from "@components/Universal/Buttons"
 // import img from "@/app/otherBackground.jpg"
 
 const Projects = () => {
   return (
     <div className={styles.fullWidthSection}>
       <Parallax></Parallax>
-      <div className={`contentSectionContainer smallBlockSpace`}>
+      <section className={`contentSectionContainer smallBlockSpace`}>
         <PreviousProject image={WCImage} location={"Walnut Creek, CA"}>
           &quot;Hollis Landscaping was able to take the plans we outlined and
           create a beautiful design that not only maintained the theme of our
@@ -28,7 +29,8 @@ const Projects = () => {
           maintenance service has improved my site more than the previous
           contractor.&quot;
         </PreviousProject>
-      </div>
+        <LinkButton></LinkButton>
+      </section>
     </div>
   )
 }

@@ -8,12 +8,14 @@ const Hello = () => {
       <div className={styles.videoContainer}>
         <VideoDisplay></VideoDisplay>
       </div>
-      <div className={"contentSectionContainer contentsCentered fillContainer"}>
+      <section
+        className={"contentSectionContainer contentsCentered fillContainer"}
+      >
         <h1 className={styles.helloText}>Bring your outdoors to life.</h1>
-        <h1 className={styles.subText}>
+        <h2 className={styles.subText}>
           Residential and Commercial Landscape Maintenance and Design
-        </h1>
-      </div>
+        </h2>
+      </section>
     </div>
   )
 }

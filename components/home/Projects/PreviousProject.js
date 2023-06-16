@@ -10,8 +10,8 @@ const PreviousProject = ({ invert, children, location, image }) => {
         <div
           className={`${styles.col} ${invert ? styles.second : styles.first}`}
         >
-          <div className={styles.location}>{location}</div>
-          <div className={styles.quote}>{children}</div>
+          <div className="location">{location}</div>
+          <div className="paragraph">{children}</div>
         </div>
         <div
           className={`${styles.col} ${invert ? styles.first : styles.second}`}
