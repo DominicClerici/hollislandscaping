@@ -18,6 +18,10 @@ export const metadata = {
   title: "Hollis Landscaping - Commercial & Residential",
   description:
     "The Best Professional Landscape Maintenance And Design Services For Residential and Commercial Properties",
+  robots: "all",
+  googlebot: "all",
+  google: "nositelinkssearchbox",
+  "google-site-verification": "fft1nfHhHvN5tBCg6G3d5G2W6OzJYmhZVq7HXpblvM8",
 }
 
 export default function RootLayout({ children }) {
