@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hollislandscaping.vercel.app
+
+# Sitemaps
+Sitemap: https://hollislandscaping.vercel.app/sitemap.xml
