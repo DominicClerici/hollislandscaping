@@ -1,0 +1,14 @@
+.footerContainer {
+  padding-block: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(220, 220, 220);
+}
+.footerContainer a {
+  text-decoration: none;
+  color: black;
+  font-size: var(--font-size-paragraph);
+  font-family: var(--font-inter);
+}

@@ -34,9 +34,75 @@ const About = () => {
           are completed efficiently and effectively for the best possible cost.
         </p>
         <p className="paragraph">
-          We use state-of-the-art machinery and equipment necessary to do every
-          landscape job right the first time, and we pride ourselves for
-          ensuring thorough clean-up after every project.
+          We use{" "}
+          <a
+            href="https://www.horizononline.com/"
+            target="_blank"
+            className="clickableText"
+          >
+            state-of-the-art machinery
+          </a>{" "}
+          and equipment necessary to do every landscape job right the first
+          time, and we pride ourselves for ensuring thorough clean-up after
+          every project.
+        </p>
+        <p className={styles.extraInfo}>
+          <a
+            href="https://landscape.calpoly.edu/"
+            target="_blank"
+            className="clickableText"
+          >
+            Cal Poly Bachelor of Science
+          </a>
+          <br></br> Landscape Architect Licensed Landscape Architect: LA # 4670
+          Contractor License: # C27, B
+        </p>
+        <p className={styles.extraInfo}>
+          <strong>
+            We use only quality products on your maintenance and landscape
+            design project:
+          </strong>
+          <br></br>
+          <br></br>{" "}
+          <a
+            href="https://thebrickyard.com/"
+            target="_blank"
+            className="clickableText"
+          >
+            BRICKYARD BUILDING MATERIALS
+          </a>{" "}
+          -{" "}
+          <a
+            href="https://ccl-organics.hub.biz/"
+            target="_blank"
+            className="clickableText"
+          >
+            CCL ORGANICS
+          </a>{" "}
+          -{" "}
+          <a
+            href="https://www.deltabluegrass.com/"
+            target="_blank"
+            className="clickableText"
+          >
+            DELTA BLUEGRASS DEVIL MOUNTAIN NURSURY
+          </a>{" "}
+          -{" "}
+          <a
+            href="https://www.horizononline.com/"
+            target="_blank"
+            className="clickableText"
+          >
+            HORIZON
+          </a>{" "}
+          -{" "}
+          <a
+            href="https://lhvoss.com/"
+            target="_blank"
+            className="clickableText"
+          >
+            LH VOSS MATERIALS WATERSAVERS IRRIGATION
+          </a>
         </p>
       </div>
     </div>

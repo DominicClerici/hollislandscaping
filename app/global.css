@@ -114,3 +114,8 @@ body {
 .smallBlockSpace {
   margin-block: 50px;
 }
+.clickableText {
+  color: var(--color-emphasis-darkened);
+  font-weight: 600;
+  text-decoration: none;
+}
