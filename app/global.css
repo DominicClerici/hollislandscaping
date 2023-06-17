@@ -51,7 +51,7 @@ body {
 /* universal styles */
 .hollisButton {
   display: inline-block;
-  background-color: var(--color-emphasis);
+  background-color: var(--color-emphasis-darkened);
   padding: 0.5em 1em;
   font-size: var(--font-size-paragraph);
   border-radius: 12px;

@@ -6,7 +6,10 @@ const Services = () => {
   return (
     <div className={styles.background}>
       <div className={styles.backgroundFilter}></div>
-      <section className={`contentSectionContainer ${styles.container}`}>
+      <section
+        id="services"
+        className={`contentSectionContainer ${styles.container}`}
+      >
         <h1 className="title centered">Services we offer</h1>
         <div className={styles.row}>
           <div className={styles.col}>

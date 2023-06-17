@@ -6,7 +6,10 @@ const About = () => {
   return (
     <div className={styles.fullWidthSection}>
       <Parallax></Parallax>
-      <div className={`${styles.normalSection} contentSectionContainer`}>
+      <div
+        id="about"
+        className={`${styles.normalSection} contentSectionContainer`}
+      >
         <h1 className="title">About Us</h1>
         <p className="paragraph">
           Hollis Landscaping has over 25 years of experience serving the

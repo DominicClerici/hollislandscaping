@@ -67,7 +67,7 @@
   border-radius: 8px;
   outline: none;
   border: none;
-  background-color: var(--color-emphasis);
+  background-color: var(--color-emphasis-darkened);
   color: white;
   font-family: var(--font-inter);
   font-weight: 600;

@@ -1,0 +1,121 @@
+.headerContainer {
+  z-index: 5;
+  background-color: white;
+  width: 100vw;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 5rem;
+}
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+.navContainer a {
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: calc(var(--font-size-paragraph) - 4px);
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+}
+.navContainer a:hover {
+  color: black;
+  cursor: pointer;
+}
+.consultButton {
+  font-weight: 700 !important;
+  text-decoration: none;
+  color: black !important;
+  font-family: var(--font-inter);
+}
+.consultButton:hover {
+  color: var(--color-emphasis-darkened) !important;
+}
+.leftSide {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.nameContainer {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.nameContainer h1 {
+  line-height: 1;
+  margin: 0px;
+  color: rgb(60, 60, 60);
+  font-size: var(--font-size-paragraph);
+  font-weight: 500;
+  font-family: var(--font-satoshi);
+}
+.nameContainer h2 {
+  line-height: 0.85;
+  margin: 0px;
+  font-size: var(--font-size-medium);
+  font-weight: 600;
+  font-family: var(--font-satoshi);
+}
+.contactsInformation {
+  display: flex;
+  flex-direction: column;
+}
+.contactsInformation a {
+  font-size: calc(var(--font-size-paragraph) - 8px);
+  font-family: var(--font-inter);
+  text-decoration: none;
+  color: black;
+}
+.socialContainer {
+  margin-inline-start: 20px;
+}
+
+@media (max-width: 1100px) {
+  .headerContainer {
+    padding: 0.5rem 1rem;
+    flex-flow: column wrap;
+  }
+  .leftSide {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .mobileThing {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  .nameContainer h1 {
+    line-height: 1;
+    margin: 0px;
+    color: rgb(60, 60, 60);
+    font-size: calc(var(--font-size-paragraph) - 3px);
+    font-weight: 500;
+    font-family: var(--font-satoshi);
+  }
+  .nameContainer h2 {
+    line-height: 0.85;
+    margin: 0px;
+    font-size: calc(var(--font-size-medium) - 5px);
+    font-weight: 600;
+    font-family: var(--font-satoshi);
+  }
+  .desktopContainer {
+    display: none;
+  }
+}
+@media (min-width: 1101px) {
+  .mobileContainer {
+    display: none;
+  }
+}
+.hamburger {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
