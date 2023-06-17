@@ -15,16 +15,16 @@ const satoshi = localFont({
   variable: "--font-satoshi",
 })
 
-// export const metadata = {
-//   title: "Hollis Landscaping - Commercial & Residential",
-//   description:
-//     "The Best Professional Landscape Maintenance And Design Services For Residential and Commercial Properties",
-// }
+export const metadata = {
+  title: "Hollis Landscaping - Commercial & Residential",
+  description:
+    "The Best Professional Landscape Maintenance And Design Services For Residential and Commercial Properties",
+}
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${satoshi.variable}`}>
-      <Head>
+      {/* <Head>
         <title>Hollis Landscaping - Commercial & Residential</title>
         <meta
           name="title"
@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="fft1nfHhHvN5tBCg6G3d5G2W6OzJYmhZVq7HXpblvM8"
         ></meta>
-      </Head>
+      </Head> */}
       <body>
         <Header></Header>
         <main>{children}</main>
